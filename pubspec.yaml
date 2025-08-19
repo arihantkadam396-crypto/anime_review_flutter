@@ -1,0 +1,16 @@
+name: anime_review_hub
+version: 1.0.0+1
+description: A simple Flutter app to browse anime and write reviews.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+
+flutter:
+  uses-material-design: true
